@@ -28,7 +28,7 @@ Component:
 [/ui/sparkline/index.styl](/ui/sparkline/index.styl)  
 
 App code:  
-[/src/app/index.js](/src/app/index.js)  
+[/lib/app/index.js](/src/app/index.js)  
 [/view/app/index.html](/view/app/index.html)  
 
 Styles:  
