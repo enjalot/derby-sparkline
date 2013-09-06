@@ -1,0 +1,9 @@
+<Title:>
+  Sparkline {{roomName}} - {_page.room.visits} visits
+
+<Body:>
+  Sparkline<br>
+  <button class="btn" x-bind="click: update">update</button>
+  <br>Total: {_page.total}
+  <!-- This is a component defined in the /ui directory -->
+  <ui:sparkline width={_page.room.width} height={_page.room.height} data={_page.room.data}>
